@@ -24,6 +24,28 @@ blobs:
     doc-url: https://github.com/SiliconLabsSoftware/sisdk-release
     size: 1234
     fetcher: lfs
+  # libsl_ot_stack_ftd_efr32mg24_gcc.a
+  - path: simplicity_sdk/openthread/libs/libsl_ot_stack_ftd_efr32mg24_gcc.a
+    sha256: 9f8ce2cceff2bd460459ea15a7e0595ab30767a59cc8b30e50dff33d60dbf3c9
+    type: lib
+    version: "2025.12.3"
+    license-path: zephyr/blobs/license/MSLA.txt
+    url: https://artifacts.silabs.net/artifactory/api/lfs/gsdk
+    description: "Certified OpenThread FTD stack library for EFR32MG24."
+    doc-url: https://github.com/SiliconLabsSoftware/sisdk-release
+    size: 1606846
+    fetcher: lfs
+  # libsl_ot_stack_mtd_efr32mg24_gcc.a
+  - path: simplicity_sdk/openthread/libs/libsl_ot_stack_mtd_efr32mg24_gcc.a
+    sha256: 9bbb0c0e86b50e79d28003c0c1fbe73b71a260a025a30a5174723eeee9493d6e
+    type: lib
+    version: "2025.12.3"
+    license-path: zephyr/blobs/license/MSLA.txt
+    url: https://artifacts.silabs.net/artifactory/api/lfs/gsdk
+    description: "Certified OpenThread MTD stack library for EFR32MG24."
+    doc-url: https://github.com/SiliconLabsSoftware/sisdk-release
+    size: 1332182
+    fetcher: lfs
   # libbluetooth_controller
   - path: simplicity_sdk/protocol/bluetooth/bgstack/ll/build/gcc/xg21/release/liblinklayer.a
     sha256: b530be82244c59b32d05073925d7a47c73926d76ba9633ae61007de528b7a4a5
